@@ -1,7 +1,7 @@
 echo "-----------------Test Started-----------------"
 result='grep "Hello from Anton" index.html | wc-l'
 echo $result
-if [ "result" = "1" ]
+if [ "$result" = "1" ]
 then 
     echo "Test Passed"
 else
